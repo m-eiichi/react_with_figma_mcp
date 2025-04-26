@@ -1,0 +1,20 @@
+{
+  "name": "react_with_figma_mcp",
+  "dockerComposeFile": ["./docker-compose.yml"],
+  "service": "react",
+  "workspaceFolder": "/usr/src/app",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "donjayamanne.githistory",
+        "esbenp.prettier-vscode",
+        "stylelint.vscode-stylelint",
+        "dbaeumer.vscode-eslint",
+        "vunguyentuan.vscode-css-variables",
+        "Gruntfuggly.todo-tree",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  }
+}
