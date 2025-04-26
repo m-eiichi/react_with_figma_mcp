@@ -1,5 +1,5 @@
 import React from "react";
-import classNames from "classnames";
+import clsx from "clsx";
 import styles from "./box.module.css";
 
 type BackgroundColor = "primary" | "secondary" | "tertiary";
@@ -20,7 +20,7 @@ export const Box: React.FC<BoxProps> = ({
   children,
   className,
 }) => {
-  const boxClasses = classNames(
+  const boxClasses = clsx(
     styles.box,
     styles[backgroundColor],
     {
